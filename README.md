@@ -1,59 +1,30 @@
-# AetherUI
+# 🧩 AetherUI - Roblox Lua UI Framework
 
-### Elegant. Fast. Universal.
-
-AetherUI is a professional open-source Roblox universal executor UI framework inspired by modern interfaces such as WindUI, Rayfield, and Synapse/Xeno utility environments.
-
-Built for developers who need a polished, mobile responsive, modular, and executor-compatible library, AetherUI provides a complete component API, smooth animations, responsive scaling, advanced window management, and a fully integrated in-game script coding workspace.
+AetherUI is a lightweight, modern, and executor-friendly UI library for Roblox Lua scripts.  
+Inspired by UI frameworks like Rayfield and Wind UI, it is built for simplicity, performance, and mobile compatibility.
 
 ---
 
 ## ✨ Features
 
-- Modern dark polished executor-style interface
-- Mobile, tablet, and PC responsive layout
-- Smooth tween animations
-- Sidebar tab navigation
-- Minimize / maximize support
-- Floating reopen button
-- Full modular component API
-- Button, Toggle, Slider, Dropdown, Textbox, Paragraph
-- Keybind system
-- Console output panel
-- Notification manager
-- Built-in advanced script code editor
-- Multi-tab code workspace
-- Script save/load system
-- Theme manager with accent customization
-- Executor universal compatibility
-- Open-source GitHub distribution ready
+- 🪟 Draggable UI system  
+- 📑 Tab-based interface  
+- 🔘 Buttons, toggles, sliders, dropdowns  
+- ⌨️ Textbox + keybind support  
+- 🧠 Built-in code editor  
+- 💾 Theme system  
+- 🔔 Notification system  
+- 📱 Mobile-friendly design  
+- ⚡ Lightweight and fast  
+- 🔓 Executor compatible (Synapse, Fluxus, etc.)
 
 ---
 
-## 📁 Project Structure
+## 📦 Installation
 
-AetherUI/
-┣ src/
-┃ ┣ Init.lua
-┃ ┣ Main.lua
-┃ ┣ ThemeManager.lua
-┃ ┣ Utilities.lua
-┃ ┣ WindowEngine.lua
-┃ ┣ Components.lua
-┃ ┣ CodeEditor.lua
-┃ ┗ NotificationManager.lua
-┣ examples/
-┃ ┗ ExampleLoader.lua
-┣ assets/
-┃ ┗ Placeholder.md
-┣ README.md
-┗ LICENSE
-
----
-
-## 🚀 Installation
-
-Load AetherUI directly from GitHub raw source:
+Load AetherUI using:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/watermaven/AetherUI/main/src/Init.lua"))()
+local AetherUI = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/watermaven/AetherUI/main/Main.lua"
+))()
